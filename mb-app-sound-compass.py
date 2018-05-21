@@ -31,7 +31,7 @@ def compassOutput(compassDir, directionDeg, pitch, displayChars):
 			pitchChange = pitch - (compassDir - directionDeg)
 
 	display.show(displayChars)
-	music.pitch(pitchChange, 100)
+	music.pitch(pitchChange, 50)
 
 
 #MAIN APP LOOP
